@@ -10,4 +10,4 @@ import { TemaService } from './services/tema.service';
   providers: [TemaService],
   exports: [TemaService],
 })
-export class TemaModule {}
+export class UsuarioModule {}
