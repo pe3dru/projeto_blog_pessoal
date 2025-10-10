@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { TemaController } from './controllers/tema.controller';
-import { Tema } from './entities/tema.entities';
+import { Tema } from './entities/tema.entity';
 import { TemaService } from './services/tema.service';
 
 @Module({
@@ -10,4 +10,4 @@ import { TemaService } from './services/tema.service';
   providers: [TemaService],
   exports: [TemaService],
 })
-export class UsuarioModule {}
+export class TemaModule {}
